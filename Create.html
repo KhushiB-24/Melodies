@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account Page</title>
+
+<style>
+	*{
+		padding:0px;
+	}
+		
+	body{
+	    background-image:url('Buddha.jpg');
+	}
+	.container{
+		height:500px;
+		width:400px;
+		border:1px solid black;
+		border-radius:20px;
+		position:fixed;
+		top:120px;
+		left:580px;
+		box-shadow:8px 8px 30px rgb(175, 175, 175);
+	}
+	
+	.title h3{
+		display:block;
+		text-align:center;
+		margin: 30px 20px 30px 20px;
+		font-style:bold;
+		font-family:xyz;
+	}
+		
+	@font-face{
+		font-family:xyz;
+		src: url('Teko.ttf');
+	}
+	
+	input{
+		padding-left:20px;
+		height:40px;
+		width:330px;
+		border:1px solid black;
+		border-radius:10px;
+		display:block;
+		font-size:18px;
+		font-family:xyz;
+	}
+		
+	button{
+		padding:10px;
+		width:350px;
+		border:1px solid black;
+		border-radius:10px;
+		display:block;
+		margin-left:25px;
+		margin-top:2px;
+		font-family:xyz;
+		
+	}
+		
+	.foot{
+		text-align:center;
+		margin-top: 40px;
+		margin-left: 25px;
+	}
+	
+</style>
+</head>
+<body>
+		<div class="container">
+			<div class="title">
+				<h3>CREATE ACCOUNT</h3>
+			</div>
+			
+			<div class="box" align="center">
+				<input type="text" placeholder="Enter your name" required><br>
+				<input type="email" placeholder="Enter your email" required><br>
+				<input type="password" placeholder="Enter your password" required><br>
+				<input type="password" placeholder="Re-enter your password" required><br>
+			</div>
+			<div>
+				<button align="center" style="font-size:medium;">Sign Up</button>
+			</div>
+			
+			<div class="foot"><span>Already have an account?</span><a href="Login.html">Login Now</a></div>
+		</div>
+</body>
+</html>

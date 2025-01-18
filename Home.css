@@ -1,0 +1,96 @@
+.d-blockw-100{
+            
+    height:500px;
+    width: 800px;
+} 
+
+.main-nav{
+  background-color: rgb(255, 255, 255, 0.07);
+  color: white;
+}
+
+.main-nav a{
+  color: white;
+}
+
+.main-nav a:hover{
+  color: rgb(255, 255, 255, 0.07);
+}
+
+#main-artist img{
+ 
+  margin: 10px 5px 10px 5px;
+  border-radius: 100%;
+
+}
+
+#main-artist  div div :hover{
+  background-color: rgb(255, 255, 255, 0.09);
+}
+
+#main-artist  div  div :active{
+  background-color: black;
+}
+
+#main-top img{
+  
+  margin: 10px 5px 10px 5px;
+  width: 180px; 
+  height: 180px;
+}
+
+#main-top > div > div :hover{
+  background-color: rgb(255, 255, 255, 0.09);
+}
+
+#main-top > div > div :active{
+  background-color: #2D3561;
+}
+
+#main-type img{
+  margin: 10px 5px 10px 5px;
+  width: 180px; 
+  height: 180px;
+}
+
+#main-type > div > div :hover{
+  background-color: rgb(255, 255, 255, 0.09);
+}
+
+.main-type > div > div :active{
+  background-color: #2D3561;
+}
+
+.text-white{
+  font-size: small;
+  line-height:4px;
+  text-decoration: none;
+}
+
+
+#main-trend .song-card{
+  max-width: 540px; 
+  height: 70px; 
+  padding:0px; 
+  color: white; 
+  background-color: rgb(255, 255, 255, 0.07);
+}
+
+#main-trend .song-card:hover{
+  background-color: rgb(255, 255, 255, 0.09);
+
+}
+
+.scrollable-column {
+  max-height: 540px;
+  overflow-y: auto;  /* Enable vertical scrolling */
+}
+
+#main-artist a{
+  text-decoration: none; 
+  color: white;
+}
+
+#About{
+  background-color: rgb(255, 255, 255, 0.07);
+}
